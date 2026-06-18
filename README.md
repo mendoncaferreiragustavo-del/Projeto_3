@@ -1,4 +1,4 @@
-# Projeto_3Projeto de Análise de Dados da Pecuária Brasileira
+Projeto de Análise de Dados da Pecuária Brasileira
 Descrição
 
 Este projeto foi desenvolvido em Python com o objetivo de realizar análises de dados da pecuária bovina brasileira, utilizando técnicas de ciência de dados e visualização geográfica. O sistema permite analisar informações sobre o rebanho bovino por estado, gerar estatísticas descritivas, criar rankings e visualizar os dados em um mapa interativo.
@@ -12,12 +12,33 @@ Exibir informações geográficas em mapas interativos.
 Aplicar conceitos de análise de dados utilizando Python.
 Tecnologias Utilizadas
 Python 3
+
+Linguagem de programação utilizada para o desenvolvimento de todo o projeto. Sua simplicidade e ampla disponibilidade de bibliotecas tornam o Python uma das principais ferramentas para análise de dados e ciência de dados.
+
 Pandas
+
+Biblioteca utilizada para leitura, organização e manipulação dos dados. Permite importar arquivos CSV, criar tabelas (DataFrames), filtrar informações, realizar análises estatísticas e organizar os dados para visualização.
+
 NumPy
+
+Biblioteca voltada para computação numérica. Fornece suporte para operações matemáticas, cálculos estatísticos e manipulação eficiente de grandes conjuntos de dados.
+
 Matplotlib
+
+Biblioteca responsável pela criação de gráficos e visualizações. Foi utilizada para gerar gráficos de barras e outras representações visuais que auxiliam na interpretação dos dados da pecuária.
+
 Folium
+
+Biblioteca utilizada para criação de mapas interativos. Permite representar espacialmente os estados brasileiros, inserir marcadores geográficos e visualizar a distribuição do rebanho bovino em um mapa dinâmico.
+
 OpenPyXL
+
+Biblioteca utilizada para manipulação de arquivos Excel. Possibilita exportar tabelas, resultados e relatórios gerados durante as análises para planilhas no formato XLSX.
+
 Jupyter Notebook
+
+Ambiente interativo utilizado para desenvolver e executar o projeto. Permite combinar código, resultados, gráficos e documentação em um único arquivo, facilitando o aprendizado e a apresentação dos resultados.
+
 Estrutura do Projeto
 ProjetoPecuaria/
 │
@@ -78,6 +99,8 @@ Análises temporais e previsões.
 Autor
 
 Gustavo Mendonça Ferreira
+
+Graduando em Agronomia
 
 Licença
 
