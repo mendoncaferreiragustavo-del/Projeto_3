@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_285b9931d8419dc546de55b72d71388e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_285b9931d8419dc546de55b72d71388e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_285b9931d8419dc546de55b72d71388e = L.map(
+                "map_285b9931d8419dc546de55b72d71388e",
+                {
+                    center: [-15.78, -47.93],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 4,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_bdad0c3d9915b7637ba0d76f45062846 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_bdad0c3d9915b7637ba0d76f45062846.addTo(map_285b9931d8419dc546de55b72d71388e);
+        
+    
+            var circle_marker_2279fa761fbbc4ce6b09007e058dd354 = L.circleMarker(
+                [-12.64, -55.42],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.333333333333334, "stroke": true, "weight": 3}
+            ).addTo(map_285b9931d8419dc546de55b72d71388e);
+        
+    
+        var popup_a5fac3f36fffc99732f0ad7db8583f81 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d9dd4d1412e8fd582b59a5ff63aac232 = $(`<div id="html_d9dd4d1412e8fd582b59a5ff63aac232" style="width: 100.0%; height: 100.0%;">Mato Grosso<br>Rebanho: 34,000,000 cabeças</div>`)[0];
+                popup_a5fac3f36fffc99732f0ad7db8583f81.setContent(html_d9dd4d1412e8fd582b59a5ff63aac232);
+            
+        
+
+        circle_marker_2279fa761fbbc4ce6b09007e058dd354.bindPopup(popup_a5fac3f36fffc99732f0ad7db8583f81)
+        ;
+
+        
+    
+    
+            var circle_marker_c23e3abf69f29223903c99974a910a7f = L.circleMarker(
+                [-15.98, -49.86],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.0, "stroke": true, "weight": 3}
+            ).addTo(map_285b9931d8419dc546de55b72d71388e);
+        
+    
+        var popup_60b296bde563bc724cf043e8257749c8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_030912113bbe9c33301c8fce17746d7d = $(`<div id="html_030912113bbe9c33301c8fce17746d7d" style="width: 100.0%; height: 100.0%;">Goiás<br>Rebanho: 24,000,000 cabeças</div>`)[0];
+                popup_60b296bde563bc724cf043e8257749c8.setContent(html_030912113bbe9c33301c8fce17746d7d);
+            
+        
+
+        circle_marker_c23e3abf69f29223903c99974a910a7f.bindPopup(popup_60b296bde563bc724cf043e8257749c8)
+        ;
+
+        
+    
+    
+            var circle_marker_9a3ecdad87735bfaa72d29c915f0f50d = L.circleMarker(
+                [-18.51, -44.56],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.666666666666667, "stroke": true, "weight": 3}
+            ).addTo(map_285b9931d8419dc546de55b72d71388e);
+        
+    
+        var popup_da1f378be4f206639ad19009ebc0e9d2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9b4350a8edcbcd87128aaf26b39a8956 = $(`<div id="html_9b4350a8edcbcd87128aaf26b39a8956" style="width: 100.0%; height: 100.0%;">Minas Gerais<br>Rebanho: 23,000,000 cabeças</div>`)[0];
+                popup_da1f378be4f206639ad19009ebc0e9d2.setContent(html_9b4350a8edcbcd87128aaf26b39a8956);
+            
+        
+
+        circle_marker_9a3ecdad87735bfaa72d29c915f0f50d.bindPopup(popup_da1f378be4f206639ad19009ebc0e9d2)
+        ;
+
+        
+    
+    
+            var circle_marker_0faf760dbc48309a83c381f499ca9d75 = L.circleMarker(
+                [-20.44, -54.64],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.0, "stroke": true, "weight": 3}
+            ).addTo(map_285b9931d8419dc546de55b72d71388e);
+        
+    
+        var popup_d96aca89692d1bdcb558964fb4ae1f72 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2cc58e5374351e1552b5dbd15897284c = $(`<div id="html_2cc58e5374351e1552b5dbd15897284c" style="width: 100.0%; height: 100.0%;">Mato Grosso do Sul<br>Rebanho: 18,000,000 cabeças</div>`)[0];
+                popup_d96aca89692d1bdcb558964fb4ae1f72.setContent(html_2cc58e5374351e1552b5dbd15897284c);
+            
+        
+
+        circle_marker_0faf760dbc48309a83c381f499ca9d75.bindPopup(popup_d96aca89692d1bdcb558964fb4ae1f72)
+        ;
+
+        
+    
+    
+            var circle_marker_1d1ffd78bcf7e8b2dc582f2a28e77b48 = L.circleMarker(
+                [-3.79, -52.48],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.333333333333334, "stroke": true, "weight": 3}
+            ).addTo(map_285b9931d8419dc546de55b72d71388e);
+        
+    
+        var popup_8be51ac563889daa263aba80e69a3acf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3b6300bff149315c8935712f1f49c1a2 = $(`<div id="html_3b6300bff149315c8935712f1f49c1a2" style="width: 100.0%; height: 100.0%;">Pará<br>Rebanho: 25,000,000 cabeças</div>`)[0];
+                popup_8be51ac563889daa263aba80e69a3acf.setContent(html_3b6300bff149315c8935712f1f49c1a2);
+            
+        
+
+        circle_marker_1d1ffd78bcf7e8b2dc582f2a28e77b48.bindPopup(popup_8be51ac563889daa263aba80e69a3acf)
+        ;
+
+        
+    
+    
+            var circle_marker_20dbb1d13796b0de4a3b5f56bfe5544c = L.circleMarker(
+                [-12.97, -38.5],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.333333333333333, "stroke": true, "weight": 3}
+            ).addTo(map_285b9931d8419dc546de55b72d71388e);
+        
+    
+        var popup_2ed75323da1306335e67d31079fe2175 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4147edeb38861853b28cd72f38e44c0f = $(`<div id="html_4147edeb38861853b28cd72f38e44c0f" style="width: 100.0%; height: 100.0%;">Bahia<br>Rebanho: 13,000,000 cabeças</div>`)[0];
+                popup_2ed75323da1306335e67d31079fe2175.setContent(html_4147edeb38861853b28cd72f38e44c0f);
+            
+        
+
+        circle_marker_20dbb1d13796b0de4a3b5f56bfe5544c.bindPopup(popup_2ed75323da1306335e67d31079fe2175)
+        ;
+
+        
+    
+    
+            var circle_marker_55a81e3c23e3de6d2444cfb01c51b0a2 = L.circleMarker(
+                [-10.83, -63.34],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.0, "stroke": true, "weight": 3}
+            ).addTo(map_285b9931d8419dc546de55b72d71388e);
+        
+    
+        var popup_cf90a13e855538dab69a0a2f94a7e3af = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_87fcb95e749fefd954ebe336aa835569 = $(`<div id="html_87fcb95e749fefd954ebe336aa835569" style="width: 100.0%; height: 100.0%;">Rondônia<br>Rebanho: 15,000,000 cabeças</div>`)[0];
+                popup_cf90a13e855538dab69a0a2f94a7e3af.setContent(html_87fcb95e749fefd954ebe336aa835569);
+            
+        
+
+        circle_marker_55a81e3c23e3de6d2444cfb01c51b0a2.bindPopup(popup_cf90a13e855538dab69a0a2f94a7e3af)
+        ;
+
+        
+    
+    
+            var circle_marker_326feff795adcf2f299b47af891fdaa5 = L.circleMarker(
+                [-10.25, -48.33],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.6666666666666665, "stroke": true, "weight": 3}
+            ).addTo(map_285b9931d8419dc546de55b72d71388e);
+        
+    
+        var popup_c19617697d3a02d37c5e968bcec3f5f5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fb56d602c9c81889b4f8effb8ee2f0d2 = $(`<div id="html_fb56d602c9c81889b4f8effb8ee2f0d2" style="width: 100.0%; height: 100.0%;">Tocantins<br>Rebanho: 11,000,000 cabeças</div>`)[0];
+                popup_c19617697d3a02d37c5e968bcec3f5f5.setContent(html_fb56d602c9c81889b4f8effb8ee2f0d2);
+            
+        
+
+        circle_marker_326feff795adcf2f299b47af891fdaa5.bindPopup(popup_c19617697d3a02d37c5e968bcec3f5f5)
+        ;
+
+        
+    
+    
+            var circle_marker_4a24ac658b13139b2871ffb037a879c0 = L.circleMarker(
+                [-23.55, -46.63],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.3333333333333335, "stroke": true, "weight": 3}
+            ).addTo(map_285b9931d8419dc546de55b72d71388e);
+        
+    
+        var popup_fb9f1d676a3bb179c3753550a1520ded = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ccbc4385fafa9eea8267247a0748a692 = $(`<div id="html_ccbc4385fafa9eea8267247a0748a692" style="width: 100.0%; height: 100.0%;">São Paulo<br>Rebanho: 10,000,000 cabeças</div>`)[0];
+                popup_fb9f1d676a3bb179c3753550a1520ded.setContent(html_ccbc4385fafa9eea8267247a0748a692);
+            
+        
+
+        circle_marker_4a24ac658b13139b2871ffb037a879c0.bindPopup(popup_fb9f1d676a3bb179c3753550a1520ded)
+        ;
+
+        
+    
+    
+            var circle_marker_ef08302668fc0121126685b1b41c2ef5 = L.circleMarker(
+                [-24.89, -51.55],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.0, "stroke": true, "weight": 3}
+            ).addTo(map_285b9931d8419dc546de55b72d71388e);
+        
+    
+        var popup_ec01f1c1b11a899db99944e2749d8a74 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cdd8f44aec2ec1755311ac7fa2f4b885 = $(`<div id="html_cdd8f44aec2ec1755311ac7fa2f4b885" style="width: 100.0%; height: 100.0%;">Paraná<br>Rebanho: 9,000,000 cabeças</div>`)[0];
+                popup_ec01f1c1b11a899db99944e2749d8a74.setContent(html_cdd8f44aec2ec1755311ac7fa2f4b885);
+            
+        
+
+        circle_marker_ef08302668fc0121126685b1b41c2ef5.bindPopup(popup_ec01f1c1b11a899db99944e2749d8a74)
+        ;
+
+        
+    
+</script>
+</html>
